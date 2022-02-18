@@ -30,3 +30,9 @@
     background: #007bb5;
     color: white;
 }
+
+marquee {
+    width: "70%";
+    direction: "right";
+    height: "30px";
+}

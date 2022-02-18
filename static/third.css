@@ -4,6 +4,14 @@
     color: black;
 }
 
+h2 {
+    font-weight: lighter;
+}
+
+strong {
+    color: blue;
+}
+
 h3 {
     text-align: center;
     color: black;
@@ -38,4 +46,19 @@ figcaption {
 
 ul {
     text-align: center;
+}
+
+#p2 {
+    position: relative;
+    text-align: center;
+}
+
+#img-p {
+    width: "200px";
+    height: "300px";
+}
+
+#img-b {
+    width: "700px";
+    height: "900px";
 }
