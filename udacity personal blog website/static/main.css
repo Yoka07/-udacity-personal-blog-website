@@ -1,0 +1,34 @@
+@import url("first.css");
+@import url("second.css");
+@import url("third.css");
+@import url("fourth.css");
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.nav ul li:hover {
+    background-color: black;
+}
